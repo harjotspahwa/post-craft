@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "post-craft"
+version = "0.1.0"
+description = ""
+authors = ["Harjot Pahwa"]
+readme = "README.md"
+packages = [{include = "post_craft"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.24.1"
+numpy = "^1.25.1"
+pandas = "^2.0.3"
+openai = "^0.27.8"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10"
+pycodestyle = "^2.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
