@@ -9,6 +9,8 @@ packages = [{include = "post_craft"}]
 [tool.poetry.dependencies]
 python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
 streamlit = "^1.24.1"
+sumy = "^0.8.1"
+nltk = "^3.6.2"
 numpy = "^1.25.1"
 pandas = "^2.0.3"
 openai = "^0.27.8"
